@@ -66,9 +66,9 @@ BAK-0224
 
 .SH SEE ALSO
 .PP
-The full source code and documentation for the simple shell can be found at: https://github.com/yourusername/simple_shell
+The full source code and documentation for the simple shell can be found at: https://github.com/as1an87/holbertonschool-simple_shell
 
-.SH BUGS
+.H BUGS
 .PP
 Report any bugs to the GitHub repository issue tracker.
 
@@ -78,7 +78,7 @@ This is free and unencumbered software released into the public domain.
 
 .SH NOTES
 .PP
-This manual page was written by [Aslan Aslanov] <as1anoff87@gmail.com> and [Nihad Namatli] <>.
+This manual page was written by [Aslan Aslanov] <as1anoff87@gmail.com> and [Nihad Namatli] <nihad.nemetli@gmail.com>.
 
 .SH VERSION
 .PP
