@@ -1,10 +1,10 @@
 #include <errno.h>
 #include "main.h"
 /**
-  * arg_counter - counts number of arguments
-  * @buf: user input
+  * arg_counter - counts arguments
+  * @buf: Input
   * @size: size of user input
-  * Return: number of argumnets
+  * Return: Number of argumnets
   */
 int arg_counter(char *buf, int size)
 {
