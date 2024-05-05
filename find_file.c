@@ -4,11 +4,9 @@ char **path_var;
 
 /**
  * find_file - Finds file location in path variables.
- *
- * @command: User input
+ * @command: Input
  * @lk: Flag indicating whether this command uses path or not.
- *
- * Return: Modified user input.
+ * Return: User input.
  */
 char *find_file(char *command, int *lk)
 {
