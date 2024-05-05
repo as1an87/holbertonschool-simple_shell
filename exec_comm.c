@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-  * exec_c - execute user input
-  * @fcommand: user input
-  * Return: executed commands return code
+  * exec_c - Execute commands
+  * @fcommand: Input
+  * Return: Return Code
   */
 int exec_c(char **fcommand)
 {
 	pid_t pid;
-	int r_code;
+	int r_code;/*r_code -> Return Code*/
 
 	pid = fork();
 	if (pid == 0)
