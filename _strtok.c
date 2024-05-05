@@ -2,10 +2,9 @@
 
 /**
  * _strtok - Own strtok function
- * @str: String to tokenize
+ * @str: String
  * @delim: Delimiter character
- *
- * Return: Array of tokens
+ * Return: Tokens
  */
 char **_strtok(char *str, char delim)
 {
