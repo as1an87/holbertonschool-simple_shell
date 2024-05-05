@@ -23,9 +23,9 @@ Simple_shell is designed to run in the `Ubuntu 22.04 LTS` linux environment and 
 
 ## Installation and Compilation🔧
 
-Do you need clone [this repository](https://github.com/jcamilovillah/simple_shell):
+Do you need clone [this repository](https://github.com/as1an87/holbertonschool-simple_shell):
 ```
-	git clone https://github.com/nihad1213/holbertonschool-simple_shell
+	git clone https://github.com/as1an87/holbertonschool-simple_shell
 ```
 and then you can compile with this command:
 ```
