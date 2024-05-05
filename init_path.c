@@ -29,7 +29,8 @@ void find_path(char **var, int *i, int *j)
 /**
   * get_path - Extracts the PATH variable from the environment variables
   * @env: Array of environment variables
-  * Return: Pointer to an array of directories in the PATH, or NULL if not found
+  * Return: Pointer to an array of directories in the PATH, 
+  * or NULL if not found
   */
 char **get_path(char **env)
 {
