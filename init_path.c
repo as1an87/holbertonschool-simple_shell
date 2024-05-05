@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  * find_path - find path in env variables
-  * @var: env variable
-  * @i: row index
-  * @j: column index
+  * find_path - Finds the PATH variable in the environment variables
+  * @var: Array of environment variables
+  * @i: Pointer to the current index of the environment variables array
+  * @j: Pointer to the current index of the PATH variable
   */
 void find_path(char **var, int *i, int *j)
 {
@@ -27,9 +27,9 @@ void find_path(char **var, int *i, int *j)
 	*j = 0;
 }
 /**
-  * get_path - init path array
-  * @env: environment variables array pointer
-  * Return: path array
+  * get_path - Extracts the PATH variable from the environment variables
+  * @env: Array of environment variables
+  * Return: Pointer to an array of directories in the PATH, or NULL if not found
   */
 char **get_path(char **env)
 {
@@ -51,7 +51,7 @@ char **get_path(char **env)
 	return (array);
 }
 /**
- * free_path - free path buffer
+ * free_path - Frees the memory allocated for the array of directories in PATH
  */
 void free_path(void)
 {

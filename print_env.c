@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_env - print env variables
+ * print_env - Prints the environment variables
  */
 void print_env(void)
 {

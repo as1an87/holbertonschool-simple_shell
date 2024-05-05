@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  * main_helper - helper function for main
+  * main_helper - This function assists the main function by handling user commands.
   * @fcommand: tokenaized user command
-  * @status: status about echo
-  * @buf: user input
-  * Return: if break needed 1 else 0
+  * @status: Indicates whether echoing is active.
+  * @buf: User input buffer.
+  * Return: 1 if a break is needed, otherwise 0.
   */
 int main_helper(char **fcommand, int status, char *buf)
 {
@@ -23,11 +23,11 @@ int main_helper(char **fcommand, int status, char *buf)
 	return (0);
 }
 /**
-  * main - shell start function
-  * @argv: argument variables
-  * @argc: argument count
-  * @env: env variables
-  * Return: always 0
+  * main - Entry point of the program
+  * @argv: Number of arguments passed to the program
+  * @argc: Array of arguments passed to the program
+  * @env: Array of environment variables
+  * Return: Returns the exit status of the program
   */
 int main(int argc, char **argv, char **env)
 {
