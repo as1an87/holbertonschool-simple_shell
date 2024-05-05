@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strtok - Custom implementation of strtok
+ * _strtok - Own strtok function
  * @str: String to tokenize
  * @delim: Delimiter character
  *
