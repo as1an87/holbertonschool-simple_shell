@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * main_helper - This function assists the main function 
+  * main_helper - This function assists the main function
   * by handling user commands.
   * @fcommand: tokenaized user command
   * @status: Indicates whether echoing is active.
